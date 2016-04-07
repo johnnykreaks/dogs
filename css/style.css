@@ -3,11 +3,12 @@
 	margin:0;
 }
 body {
+	background-color:grey;
 	font-family:sans-serif;
 }
 #container {
 	background-color:grey;
-	margin: 0.25em auto;
+	margin: 1.25em auto;
 	width:65%;
 }
 /* HEADER */
@@ -60,17 +61,35 @@ nav li {
 }
 /* SECTION */
 section {
-	
+	float:left;
+	width:70%;
+	padding:2em 0em;
+	background-color:green;
 }
 section article {
-	
+	width:70%;
+	margin:auto;
+}
+section h3 {
+	padding:0.5em 0em;
+}
+section p {
+	padding:1em 0em;
+}
+section img:nth-of-type(2) {
+	width:300px;
 }
 /* ASIDE */
 aside {
-	
+	float:left;
+	padding:2em 0em;
+	background-color:red;
+	height:20em;
+	width:30%;
 }
 /* FOOTER */
 footer {
+	clear:both;
 	overflow:auto;
 	background-color:black;
 	padding:0.5em;
@@ -94,8 +113,13 @@ footer img:hover {
 }
 
 
-
-
+/* KEYFRAMES */
+@keyframes updown {
+	0% 
+	{
+		
+	}
+}
 
 
 
