@@ -1,0 +1,51 @@
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	
+}
+#container {
+	margin: 1.5em auto;
+	width:65%;
+}
+/* HEADER */
+header {
+	text-align:center;
+}
+header img:first-of-type {
+	width:8%;
+	transform:rotate(25deg);
+	display:inline;
+}
+header img:last-of-type {
+	width:8%;
+	transform:rotate(-25deg);
+	display:inline;
+}
+header h2 {
+	display:inline;
+	font-size:3em;
+	text-transform:uppercase;
+	padding:0em 1em;
+}
+/* SECTION */
+section {
+	
+}
+/* ASIDE */
+aside {
+	
+}
+/* FOOTER */
+footer {
+	
+}
+
+
+
+
+
+
+
+
